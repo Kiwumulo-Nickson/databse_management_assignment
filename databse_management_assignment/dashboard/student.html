@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard Template</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Add any necessary CSS stylesheets and JavaScript files -->
+	<link rel="stylesheet" href="dash.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<!-- Add a header section with logo and navigation links -->
+	<header>
+		<div class="logo">STUDENT DASHBOARD</div>
+		<nav>
+			<ul>
+				<li><a href="complaint_form.html">Complaint Form</a></li>
+				<li><a href="display_page.html">Feed Back From Lecturer</a></li>
+				<li><a href="/student_complaint_form.html">Link 3</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Add a main section with dashboard widgets -->
+	<main>
+		<section class="widget">
+			<h2>Widget Title 1</h2>
+			<!-- Add any necessary content for the widget -->
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3">
+                    <h2>Student Complaint Form</h2>
+                    <form>
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                      </div>
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                      </div>
+                      <div class="form-group">
+                        <label for="complaint">Complaint</label>
+                        <textarea class="form-control" rows="5" id="complaint"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            
+              
+            
+		</section>
+		<section class="widget">
+			<h2>Widget Title 2</h2>
+			<!-- Add any necessary content for the widget -->
+		</section>
+		<section class="widget">
+			<h2>Widget Title 3</h2>
+			<!-- Add any necessary content for the widget -->
+		</section>
+	</main>
+	<!-- Add a footer section with copyright information -->
+	<footer>
+		<p>&copy; 2023 Student Dashboard . </p>
+	</footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
